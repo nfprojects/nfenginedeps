@@ -1,0 +1,4 @@
+# VS related files
+*.opensdf
+*.sdf
+*.suo
