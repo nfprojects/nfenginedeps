@@ -1,0 +1,5 @@
+# VS related files
+*.opensdf
+*.sdf
+*.suo
+*.vcxproj.user
