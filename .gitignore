@@ -1,4 +1,5 @@
 # VS related files
+/ipch
 *.opensdf
 *.sdf
 *.suo
@@ -7,3 +8,14 @@
 # Compilation results
 /Bin
 /Obj
+*.dll
+*.lib
+*.pdb
+*.exp
+*.ilk
+
+# AntTweakBar intermediate files
+/AntTweakBar/src/debug32
+/AntTweakBar/src/debug64
+/AntTweakBar/src/release32
+/AntTweakBar/src/release64
