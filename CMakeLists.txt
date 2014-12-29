@@ -1,0 +1,38 @@
+# @file   CMakeLists.txt
+# @author LKostyra (costyrra.xl@gmail.com)
+# @brief  Main CMake file for nfEngine Deps
+
+CMAKE_MINIMUM_REQUIRED(VERSION 3.0)
+
+PROJECT(nfEngineDeps)
+
+# Pre-define Release build
+IF(NOT DEFINED CMAKE_BUILD_TYPE)
+    SET(CMAKE_BUILD_TYPE Release)
+ENDIF(NOT DEFINED CMAKE_BUILD_TYPE)
+
+# Set required variables
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O2 -std=c++0x")
+SET(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -O0 -g -std=c++0x")
+
+# If any macros specific to project are needed, prefix them with NFEDEPS_
+SET(NFEDEPS_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/Bin/${CMAKE_BUILD_TYPE})
+SET(CMAKE_RUNTIME_OUTPUT_DIRECTORY NFEDEPS_OUTPUT_DIRECTORY)
+SET(CMAKE_LIBRARY_OUTPUT_DIRECTORY NFEDEPS_OUTPUT_DIRECTORY)
+
+MESSAGE("Creating Makefile for nfEngine Deps")
+
+MESSAGE("Output path is ${NFEDEPS_OUTPUT_DIRECTORY}")
+MESSAGE("Build type is ${CMAKE_BUILD_TYPE}")
+
+# Add all projects
+ADD_SUBDIRECTORY("AntTweakBar")
+ADD_SUBDIRECTORY("bullet")
+#ADD_SUBDIRECTORY("FreeType") # TODO FINISH
+ADD_SUBDIRECTORY("gtest")
+ADD_SUBDIRECTORY("jpeg")
+ADD_SUBDIRECTORY("libpng")
+ADD_SUBDIRECTORY("model_obj")
+ADD_SUBDIRECTORY("zlib")
+
+FILE(MAKE_DIRECTORY ${NFEDEPS_OUTPUT_DIRECTORY})
