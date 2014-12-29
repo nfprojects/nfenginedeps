@@ -37,7 +37,7 @@ This will compile dependencies on all available platform/configuration combinati
 Building nfEngineDeps on Linux platform
 -----------------------------------------
 
-Right now Linux platform is not supported. When nfEngine project will be buildable under Linux, this section will be filled.
+Bullet Physics engine requires OpenGL and GLUT to be built. On Fedora, it is easy to install it by using "sudo yum install freeglut-devel", which will download all required dependencies as well.
 
 Documentation
 -------------
