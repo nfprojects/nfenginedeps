@@ -1,0 +1,101 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1969be_def1dbce",
+        "filename": "CMakeLists.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1002654
+      },
+      "writtenOn": "2015-02-11T21:46:28Z",
+      "side": 1,
+      "message": "Why so high version?",
+      "revId": "172eccf357f072a681bd45790b1fa4d18c6ab335",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1969be_1ebb73e6",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1002654
+      },
+      "writtenOn": "2015-02-11T21:46:28Z",
+      "side": 1,
+      "message": "Is this checked during a build?",
+      "range": {
+        "startLine": 40,
+        "startChar": 0,
+        "endLine": 40,
+        "endChar": 59
+      },
+      "revId": "172eccf357f072a681bd45790b1fa4d18c6ab335",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1969be_febf77ce",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1002654
+      },
+      "writtenOn": "2015-02-11T21:46:28Z",
+      "side": 1,
+      "message": "Write a command for dpkg users also",
+      "range": {
+        "startLine": 40,
+        "startChar": 60,
+        "endLine": 40,
+        "endChar": 138
+      },
+      "revId": "172eccf357f072a681bd45790b1fa4d18c6ab335",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1969be_5eb5ebec",
+        "filename": "jpeg/CMakeLists.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1002654
+      },
+      "writtenOn": "2015-02-11T21:46:28Z",
+      "side": 1,
+      "message": "Delete",
+      "revId": "172eccf357f072a681bd45790b1fa4d18c6ab335",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1969be_3ebaafde",
+        "filename": "jpeg/CMakeLists.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1002654
+      },
+      "writtenOn": "2015-02-11T21:46:28Z",
+      "side": 1,
+      "message": "Delete",
+      "revId": "172eccf357f072a681bd45790b1fa4d18c6ab335",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
