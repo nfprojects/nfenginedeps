@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1969be_923ba8d0",
+        "filename": "CMakeLists.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1002654
+      },
+      "writtenOn": "2015-02-25T22:37:57Z",
+      "side": 1,
+      "message": "Change to 2.8 or even lower.",
+      "range": {
+        "startLine": 5,
+        "startChar": 31,
+        "endLine": 5,
+        "endChar": 34
+      },
+      "revId": "0f9f8d32770ee285c8cfd1ed7beffcbce431f449",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
