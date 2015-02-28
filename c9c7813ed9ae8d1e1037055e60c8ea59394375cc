@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1969be_c702780a",
+        "filename": "Scripts/clean-all.sh",
+        "patchSetId": 5
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1002655
+      },
+      "writtenOn": "2015-02-28T13:23:08Z",
+      "side": 1,
+      "message": "A quick question - maybe change the name of this script to clean.sh? To keep consistency with nfEngine repo?",
+      "revId": "c9c7813ed9ae8d1e1037055e60c8ea59394375cc",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
