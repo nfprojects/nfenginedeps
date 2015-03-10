@@ -41,16 +41,22 @@ Building nfEngineDeps on Linux platform
 
 Bullet Physics engine requires OpenGL and GLUT to be built. These can be easily downloaded by using your favorite repo manager:
 
-On Fedora:
-
 ```
+# On Fedora:
 sudo yum install freeglut-devel
-```
 
-On Ubuntu:
-
-```
+# On Ubuntu:
 sudo apt-get install freeglut-dev
+```
+
+Additionally, if you want to build on 32-bit (i386) configuration, 32-bit version of glibc is required. Install it by using:
+
+```
+# On Fedora:
+sudo yum install glibc-devel.i686
+
+# On Ubuntu:
+sudo apt-get install libc6-dev-i386
 ```
 
 After packages are downloaded and installed in your system, just call rebuild-all.sh script, which will generate nfEngineDeps libraries under all configurations required.
