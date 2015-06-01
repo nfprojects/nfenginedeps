@@ -45,7 +45,11 @@ Bullet Physics engine requires OpenGL and GLUT to be built. These can be easily 
 # On Fedora:
 sudo yum install freeglut-devel
 
-# On Ubuntu:
+
+# On Ubuntu 14.04 or higher:
+sudo apt-get install freeglut3-dev
+
+# However, if you have Ubuntu earlier than 14.04:
 sudo apt-get install freeglut-dev
 ```
 
