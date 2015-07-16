@@ -1,0 +1,14 @@
+﻿cl : Command line warning D9002: ignoring unknown option '/arch:SSE'
+  squish.cpp
+  singlecolourfit.cpp
+  rangefit.cpp
+  maths.cpp
+  colourset.cpp
+  colourfit.cpp
+  colourblock.cpp
+  clusterfit.cpp
+  alpha.cpp
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(D:\gfhgh\importante_muy\nfengine\nfenginedeps\squish\vs9\squish\x64\Debug\squish.lib) does not match the Library's OutputFile property value (D:\gfhgh\importante_muy\nfengine\nfenginedeps\squish\lib64\vs9\squishd.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetName(squish) does not match the Library's OutputFile property value (squishd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  squish.vcxproj -> D:\gfhgh\importante_muy\nfengine\nfenginedeps\squish\vs9\squish\x64\Debug\squish.lib
