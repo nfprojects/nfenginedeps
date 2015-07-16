@@ -40,6 +40,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BulletSoftBody", "bullet\bu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LinearMath", "bullet\build3\vs2010\LinearMath.vcxproj", "{87C66833-ED38-C54A-BE3C-CBFB253F11EA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "squish", "squish\squish.vcxproj", "{6A8518C3-D81A-4428-BD7F-C37933088AC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -242,6 +244,18 @@ Global
 		{87C66833-ED38-C54A-BE3C-CBFB253F11EA}.Release|Win32.Build.0 = Release|Win32
 		{87C66833-ED38-C54A-BE3C-CBFB253F11EA}.Release|x64.ActiveCfg = Release|x64
 		{87C66833-ED38-C54A-BE3C-CBFB253F11EA}.Release|x64.Build.0 = Release|x64
+		{6A8518C3-D81A-4428-BD7F-C37933088AC1}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{6A8518C3-D81A-4428-BD7F-C37933088AC1}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{6A8518C3-D81A-4428-BD7F-C37933088AC1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6A8518C3-D81A-4428-BD7F-C37933088AC1}.Debug|Win32.Build.0 = Debug|Win32
+		{6A8518C3-D81A-4428-BD7F-C37933088AC1}.Debug|x64.ActiveCfg = Debug|x64
+		{6A8518C3-D81A-4428-BD7F-C37933088AC1}.Debug|x64.Build.0 = Debug|x64
+		{6A8518C3-D81A-4428-BD7F-C37933088AC1}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{6A8518C3-D81A-4428-BD7F-C37933088AC1}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{6A8518C3-D81A-4428-BD7F-C37933088AC1}.Release|Win32.ActiveCfg = Release|Win32
+		{6A8518C3-D81A-4428-BD7F-C37933088AC1}.Release|Win32.Build.0 = Release|Win32
+		{6A8518C3-D81A-4428-BD7F-C37933088AC1}.Release|x64.ActiveCfg = Release|x64
+		{6A8518C3-D81A-4428-BD7F-C37933088AC1}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
