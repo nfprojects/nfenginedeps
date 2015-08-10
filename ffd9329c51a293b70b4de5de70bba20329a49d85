@@ -36,6 +36,23 @@
     },
     {
       "key": {
+        "uuid": "9ad9bd40_cf74046a",
+        "filename": "squish/texture_compression_s3tc.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1002655
+      },
+      "writtenOn": "2015-08-10T12:17:09Z",
+      "side": 1,
+      "message": "This file seems redundant as well.",
+      "revId": "ffd9329c51a293b70b4de5de70bba20329a49d85",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ad9bd40_6f64d8b8",
         "filename": "squish/vs9/squish/squish.vcproj",
         "patchSetId": 2
