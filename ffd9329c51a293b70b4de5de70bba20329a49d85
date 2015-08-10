@@ -16,6 +16,23 @@
       "revId": "ffd9329c51a293b70b4de5de70bba20329a49d85",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_ef48e82e",
+        "filename": "squish/Doxyfile",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1002655
+      },
+      "writtenOn": "2015-08-10T12:13:21Z",
+      "side": 1,
+      "message": "IMO this is not needed. We won\u0027t generate documentation of squish in deps. Docs are there in the web if someone needs them.",
+      "revId": "ffd9329c51a293b70b4de5de70bba20329a49d85",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
