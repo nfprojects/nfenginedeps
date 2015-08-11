@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "9ad9bd40_b1cc7fbc",
+        "filename": "Deps.sln",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1003055
+      },
+      "writtenOn": "2015-08-11T10:34:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ad9bd40_af434011",
+      "revId": "ffd9329c51a293b70b4de5de70bba20329a49d85",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ad9bd40_ef48e82e",
         "filename": "squish/Doxyfile",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2015-08-10T12:13:21Z",
       "side": 1,
       "message": "IMO this is not needed. We won\u0027t generate documentation of squish in deps. Docs are there in the web if someone needs them.",
+      "revId": "ffd9329c51a293b70b4de5de70bba20329a49d85",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_11bd2b02",
+        "filename": "squish/Doxyfile",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1003055
+      },
+      "writtenOn": "2015-08-11T10:34:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ad9bd40_ef48e82e",
       "revId": "ffd9329c51a293b70b4de5de70bba20329a49d85",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "9ad9bd40_713d978e",
+        "filename": "squish/texture_compression_s3tc.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1003055
+      },
+      "writtenOn": "2015-08-11T10:34:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ad9bd40_cf74046a",
+      "revId": "ffd9329c51a293b70b4de5de70bba20329a49d85",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ad9bd40_6f64d8b8",
         "filename": "squish/vs9/squish/squish.vcproj",
         "patchSetId": 2
@@ -64,6 +118,24 @@
       "writtenOn": "2015-08-10T12:16:14Z",
       "side": 1,
       "message": "This old vcproj won\u0027t be needed as well.",
+      "revId": "ffd9329c51a293b70b4de5de70bba20329a49d85",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_b1439f11",
+        "filename": "squish/vs9/squish/squish.vcproj",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1003055
+      },
+      "writtenOn": "2015-08-11T10:34:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ad9bd40_6f64d8b8",
       "revId": "ffd9329c51a293b70b4de5de70bba20329a49d85",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
