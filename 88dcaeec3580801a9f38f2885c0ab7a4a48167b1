@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_08ca501a",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 5
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1002655
+      },
+      "writtenOn": "2015-08-15T07:18:02Z",
+      "side": 1,
+      "message": "Verification?",
+      "revId": "88dcaeec3580801a9f38f2885c0ab7a4a48167b1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_c84ce8ca",
+        "filename": "squish/CMakeLists.txt",
+        "patchSetId": 5
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1002655
+      },
+      "writtenOn": "2015-08-15T07:18:02Z",
+      "side": 1,
+      "message": "Why not fuse it into one SET_TARGET_PROPERTIES call?\n\nSince this is Fedora (or, Linux) only, I would wrap it into a IF()...ENDIF() block.",
+      "range": {
+        "startLine": 13,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 60
+      },
+      "revId": "88dcaeec3580801a9f38f2885c0ab7a4a48167b1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_e847eca0",
+        "filename": "squish/CMakeLists.txt",
+        "patchSetId": 5
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1002655
+      },
+      "writtenOn": "2015-08-15T07:18:02Z",
+      "side": 1,
+      "message": "Same as above block, except for IF()...ENDIF() with Mac OS specific define. CMake supports some platform related constants, however I don\u0027t remember the specifics right now.",
+      "range": {
+        "startLine": 17,
+        "startChar": 0,
+        "endLine": 18,
+        "endChar": 65
+      },
+      "revId": "88dcaeec3580801a9f38f2885c0ab7a4a48167b1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
