@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "9ad9bd40_99486b89",
+        "filename": "squish/CMakeLists.txt",
+        "patchSetId": 6
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1002655
+      },
+      "writtenOn": "2015-08-18T09:45:35Z",
+      "side": 1,
+      "message": "Reading from \"APPLE\" description, which I linked there - APPLE means that compiler has defined __APPLE__ directive somewhere in the headers. And only that. So APPLE itself might be not so precise.\n\nAs for Unix, we don\u0027t support Cygwin nor Mingw so we can make it precise as well.",
+      "parentUuid": "9ad9bd40_596263ae",
+      "revId": "50fd27af6c53ad731330d48dfbfa0675e178aa6c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ad9bd40_f9bc1709",
         "filename": "squish/CMakeLists.txt",
         "patchSetId": 6
