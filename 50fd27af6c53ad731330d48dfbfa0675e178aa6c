@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_19ba9b0a",
+        "filename": "squish/CMakeLists.txt",
+        "patchSetId": 6
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1002655
+      },
+      "writtenOn": "2015-08-18T07:28:34Z",
+      "side": 1,
+      "message": "Reading through http://www.cmake.org/Wiki/CMake_Useful_Variables#System_.26_Compiler_Information I think these should be done differently.\n\nIF(${CMAKE_SYSTEM_NAME} MATCHES \"Darwin\")\n...\nELSEIF(${CMAKE_SYSTEM_NAME} MATCHES \"Linux\")\n...\nENDIF(...)",
+      "revId": "50fd27af6c53ad731330d48dfbfa0675e178aa6c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_f9bc1709",
+        "filename": "squish/CMakeLists.txt",
+        "patchSetId": 6
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1002655
+      },
+      "writtenOn": "2015-08-18T07:28:34Z",
+      "side": 1,
+      "message": "Whooooooooooooooooooooooooooooooooooah",
+      "revId": "50fd27af6c53ad731330d48dfbfa0675e178aa6c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
