@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "9ad9bd40_596263ae",
+        "filename": "squish/CMakeLists.txt",
+        "patchSetId": 6
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1003055
+      },
+      "writtenOn": "2015-08-18T07:42:12Z",
+      "side": 1,
+      "message": "It\u0027s on the same page, few lines under - APPLE and UNIX.\nThose should work as well, so I don\u0027t understand what\u0027s the difference?\nAPPLE means all apple os\u0027s, but does CMake RUN of all apple os\u0027s? I don\u0027t think so...I think that it does not run even on Mac OS 9, which leaves us with Mac OS X.\nWell...if its not Apple system, then UNIX means CygWin or any Unix system apart from MacOS.\n\n\nDo You really want me to change those to be this specific (as you wrote)?",
+      "parentUuid": "9ad9bd40_19ba9b0a",
+      "revId": "50fd27af6c53ad731330d48dfbfa0675e178aa6c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ad9bd40_f9bc1709",
         "filename": "squish/CMakeLists.txt",
         "patchSetId": 6
@@ -30,6 +48,24 @@
       "writtenOn": "2015-08-18T07:28:34Z",
       "side": 1,
       "message": "Whooooooooooooooooooooooooooooooooooah",
+      "revId": "50fd27af6c53ad731330d48dfbfa0675e178aa6c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_795727cb",
+        "filename": "squish/CMakeLists.txt",
+        "patchSetId": 6
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1003055
+      },
+      "writtenOn": "2015-08-18T07:42:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ad9bd40_f9bc1709",
       "revId": "50fd27af6c53ad731330d48dfbfa0675e178aa6c",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
