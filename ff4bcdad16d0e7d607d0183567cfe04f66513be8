@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_4b8c3b80",
+        "filename": "squish/CMakeLists.txt",
+        "patchSetId": 7
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1002655
+      },
+      "writtenOn": "2015-08-21T11:24:51Z",
+      "side": 1,
+      "message": "I just found out that AltiVec is an old SIMD extension to PowerPC Macs. These were produced 10 years ago, now all Mac PCs and MacBooks have Intel CPUs, supporting SSE. IMO this is not needed anymore.",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 68
+      },
+      "revId": "ff4bcdad16d0e7d607d0183567cfe04f66513be8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
