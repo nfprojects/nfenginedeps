@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_496b5e85",
+        "filename": "CMakeLists.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1003055
+      },
+      "writtenOn": "2015-08-24T14:53:41Z",
+      "side": 1,
+      "message": "trailing whitespace",
+      "range": {
+        "startLine": 26,
+        "startChar": 28,
+        "endLine": 26,
+        "endChar": 29
+      },
+      "revId": "e8c21b7e6581db7a61cfa679a098cd9237ed2cac",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_c9576ec9",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1003055
+      },
+      "writtenOn": "2015-08-24T14:53:41Z",
+      "side": 1,
+      "message": "trailing whitespace",
+      "range": {
+        "startLine": 4,
+        "startChar": 92,
+        "endLine": 4,
+        "endChar": 93
+      },
+      "revId": "e8c21b7e6581db7a61cfa679a098cd9237ed2cac",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_09715677",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1003055
+      },
+      "writtenOn": "2015-08-24T14:53:41Z",
+      "side": 1,
+      "message": "trailing whitespace",
+      "range": {
+        "startLine": 22,
+        "startChar": 182,
+        "endLine": 22,
+        "endChar": 183
+      },
+      "revId": "e8c21b7e6581db7a61cfa679a098cd9237ed2cac",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
