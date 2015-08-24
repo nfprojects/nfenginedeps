@@ -1,7 +1,7 @@
 nfEngineDeps README file
 ===============
 
-nfEngineDeps is a repository used to provide all required dependencies for nfEngine project. 
+nfEngineDeps is a repository used to provide all required dependencies for nfEngine project.
 
 nfEngine is an open source 3D game engine. For more info about it, visit main project repository [here](http://www.github.com/nfprojects/nfengine).
 
@@ -19,7 +19,7 @@ This document consists of following sections (in order of appearance in file):
 Building nfEngineDeps on Windows platform
 -----------------------------------------
 
-Building nfEngineDeps on Windows is made by using Microsoft Visual Studio 2013 compiler. Additionally, AntTweakBar relies on Direct3D, so DirectX SDK must be installed on the system. 
+Building nfEngineDeps on Windows is made by using Microsoft Visual Studio 2013 compiler. Additionally, AntTweakBar relies on Direct3D, so DirectX SDK must be installed on the system.
 
 To properly build nfEngineDeps with Visual Studio:
 
@@ -51,16 +51,6 @@ sudo apt-get install freeglut3-dev
 
 # However, if you have Ubuntu earlier than 14.04:
 sudo apt-get install freeglut-dev
-```
-
-Additionally, if you want to build on 32-bit (i386) configuration, 32-bit version of glibc is required. Install it by using:
-
-```
-# On Fedora:
-sudo yum install glibc-devel.i686
-
-# On Ubuntu:
-sudo apt-get install libc6-dev-i386
 ```
 
 After packages are downloaded and installed in your system, just call rebuild-all.sh script, which will generate nfEngineDeps libraries under all configurations required.
