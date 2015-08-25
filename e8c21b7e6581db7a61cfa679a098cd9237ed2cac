@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "9ad9bd40_1e9ee556",
+        "filename": "CMakeLists.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1002655
+      },
+      "writtenOn": "2015-08-25T13:08:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ad9bd40_496b5e85",
+      "range": {
+        "startLine": 26,
+        "startChar": 28,
+        "endLine": 26,
+        "endChar": 29
+      },
+      "revId": "e8c21b7e6581db7a61cfa679a098cd9237ed2cac",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ad9bd40_c9576ec9",
         "filename": "README.md",
         "patchSetId": 1
@@ -36,6 +60,30 @@
       "writtenOn": "2015-08-24T14:53:41Z",
       "side": 1,
       "message": "trailing whitespace",
+      "range": {
+        "startLine": 4,
+        "startChar": 92,
+        "endLine": 4,
+        "endChar": 93
+      },
+      "revId": "e8c21b7e6581db7a61cfa679a098cd9237ed2cac",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_9ea9157e",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1002655
+      },
+      "writtenOn": "2015-08-25T13:08:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ad9bd40_c9576ec9",
       "range": {
         "startLine": 4,
         "startChar": 92,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "9ad9bd40_7eac518d",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1002655
+      },
+      "writtenOn": "2015-08-25T13:08:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ad9bd40_09715677",
+      "range": {
+        "startLine": 22,
+        "startChar": 182,
+        "endLine": 22,
+        "endChar": 183
+      },
+      "revId": "e8c21b7e6581db7a61cfa679a098cd9237ed2cac",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ad9bd40_c9aa0e85",
         "filename": "Scripts/rebuild-all.sh",
         "patchSetId": 1
@@ -82,6 +154,24 @@
       "writtenOn": "2015-08-24T15:20:39Z",
       "side": 1,
       "message": "Is this needed? You check platform name in CMake.",
+      "revId": "e8c21b7e6581db7a61cfa679a098cd9237ed2cac",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_beb5f9d1",
+        "filename": "Scripts/rebuild-all.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1002655
+      },
+      "writtenOn": "2015-08-25T13:08:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ad9bd40_c9aa0e85",
       "revId": "e8c21b7e6581db7a61cfa679a098cd9237ed2cac",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
@@ -111,6 +201,30 @@
     },
     {
       "key": {
+        "uuid": "9ad9bd40_debabdbf",
+        "filename": "Scripts/rebuild-all.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1002655
+      },
+      "writtenOn": "2015-08-25T13:08:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ad9bd40_e9afd292",
+      "range": {
+        "startLine": 23,
+        "startChar": 39,
+        "endLine": 23,
+        "endChar": 61
+      },
+      "revId": "e8c21b7e6581db7a61cfa679a098cd9237ed2cac",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ad9bd40_0994f642",
         "filename": "Scripts/rebuild-all.sh",
         "patchSetId": 1
@@ -122,6 +236,30 @@
       "writtenOn": "2015-08-24T15:20:39Z",
       "side": 1,
       "message": "As above",
+      "range": {
+        "startLine": 34,
+        "startChar": 41,
+        "endLine": 34,
+        "endChar": 63
+      },
+      "revId": "e8c21b7e6581db7a61cfa679a098cd9237ed2cac",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad9bd40_feaf817b",
+        "filename": "Scripts/rebuild-all.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1002655
+      },
+      "writtenOn": "2015-08-25T13:08:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ad9bd40_0994f642",
       "range": {
         "startLine": 34,
         "startChar": 41,
