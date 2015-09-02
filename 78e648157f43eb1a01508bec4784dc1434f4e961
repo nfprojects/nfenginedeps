@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "9ad9bd40_d9f62ef9",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1002655
+      },
+      "writtenOn": "2015-09-02T18:31:35Z",
+      "side": 1,
+      "message": "Not needed. You are committing to nfEngineDeps repository. :)\n\nIf you really need to add something here, I would see it as follows:\n\"libpng: Update to 1.6.18\"",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 13
+      },
+      "revId": "78e648157f43eb1a01508bec4784dc1434f4e961",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ad9bd40_a3921d49",
         "filename": "libpng/libpng.vcxproj",
         "patchSetId": 1
