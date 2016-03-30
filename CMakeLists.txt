@@ -35,7 +35,6 @@ MESSAGE("Build type is ${CMAKE_BUILD_TYPE}")
 MESSAGE("Platform is ${BUILD_PLATFORM}")
 
 # Add all projects
-ADD_SUBDIRECTORY("AntTweakBar")
 ADD_SUBDIRECTORY("bullet")
 #ADD_SUBDIRECTORY("FreeType") # TODO FINISH
 ADD_SUBDIRECTORY("gtest")
