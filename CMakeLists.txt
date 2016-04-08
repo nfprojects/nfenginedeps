@@ -19,6 +19,9 @@ EXECUTE_PROCESS(COMMAND uname -m
 SET(CMAKE_CXX_FLAGS       "${CMAKE_CXX_FLAGS} -O2 -std=c++0x")
 SET(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -O0 -g -std=c++0x")
 
+# enable Position Independent Code
+ADD_DEFINITIONS("-fPIC")
+
 # If any macros specific to project are needed, prefix them with NFEDEPS_
 SET(NFEDEPS_ROOT_DIRECTORY ${CMAKE_SOURCE_DIR})
 SET(NFEDEPS_OUTPUT_DIRECTORY
