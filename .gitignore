@@ -4,6 +4,7 @@
 *.sdf
 *.suo
 *.vcxproj.user
+*.VC.db
 
 # Compilation results
 /Bin
@@ -16,15 +17,6 @@
 *.a
 *.so
 *.o
-
-# AntTweakBar intermediate files
-/AntTweakBar/src/debug32
-/AntTweakBar/src/debug64
-/AntTweakBar/src/release32
-/AntTweakBar/src/release64
-
-# AntTweakBar output directory
-/AntTweakBar/lib
 
 # CMake files
 CMakeCache.txt
