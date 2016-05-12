@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_cc32425f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1002655
+      },
+      "writtenOn": "2016-05-12T06:03:16Z",
+      "side": 1,
+      "message": "Missing Change-Id field",
+      "revId": "815432034ff0e8389726cb55808d3f4055726573",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
