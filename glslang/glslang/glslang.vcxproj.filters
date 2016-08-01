@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GenericCodeGen">
+      <UniqueIdentifier>{c7d7dcac-d4eb-40b6-9c28-bb1e3fd2b88d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{78ca3ec1-c40d-4c0e-b378-4c5c5cfb40fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MachineIndependent">
+      <UniqueIdentifier>{8d7cfb12-9fc2-4357-8c62-ff87a7a6094a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OSDependent">
+      <UniqueIdentifier>{18674143-6826-4c26-8d86-1d80b29f85ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OSDependent\Windows">
+      <UniqueIdentifier>{27f40e06-0c7c-4870-9e83-4f210d1c7313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public">
+      <UniqueIdentifier>{4432d7f4-367b-4c4f-acfb-b18189004c0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MachineIndependent\preprocessor">
+      <UniqueIdentifier>{f8764147-d0a4-41b1-b89d-cca5868e290d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Public\ShaderLang.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\arrays.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BaseTypes.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ConstantUnion.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\InfoSink.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\InitializeGlobals.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\intermediate.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\PoolAlloc.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ResourceLimits.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\revision.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ShHandle.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Types.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineIndependent\gl_types.h">
+      <Filter>MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineIndependent\glslang_tab.cpp.h">
+      <Filter>MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineIndependent\Initialize.h">
+      <Filter>MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineIndependent\localintermediate.h">
+      <Filter>MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineIndependent\ParseHelper.h">
+      <Filter>MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineIndependent\parseVersions.h">
+      <Filter>MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineIndependent\propagateNoContraction.h">
+      <Filter>MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineIndependent\reflection.h">
+      <Filter>MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineIndependent\RemoveTree.h">
+      <Filter>MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineIndependent\Scan.h">
+      <Filter>MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineIndependent\ScanContext.h">
+      <Filter>MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineIndependent\SymbolTable.h">
+      <Filter>MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineIndependent\Versions.h">
+      <Filter>MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineIndependent\preprocessor\PpContext.h">
+      <Filter>MachineIndependent\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineIndependent\preprocessor\PpTokens.h">
+      <Filter>MachineIndependent\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="OSDependent\osinclude.h">
+      <Filter>OSDependent</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GenericCodeGen\CodeGen.cpp">
+      <Filter>GenericCodeGen</Filter>
+    </ClCompile>
+    <ClCompile Include="GenericCodeGen\Link.cpp">
+      <Filter>GenericCodeGen</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineIndependent\Constant.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineIndependent\glslang_tab.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineIndependent\InfoSink.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineIndependent\Initialize.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineIndependent\Intermediate.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineIndependent\intermOut.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineIndependent\IntermTraverse.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineIndependent\limits.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineIndependent\linkValidate.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineIndependent\parseConst.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineIndependent\ParseHelper.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineIndependent\PoolAlloc.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineIndependent\propagateNoContraction.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineIndependent\reflection.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineIndependent\RemoveTree.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineIndependent\Scan.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineIndependent\ShaderLang.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineIndependent\SymbolTable.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineIndependent\Versions.cpp">
+      <Filter>MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineIndependent\preprocessor\Pp.cpp">
+      <Filter>MachineIndependent\preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineIndependent\preprocessor\PpAtom.cpp">
+      <Filter>MachineIndependent\preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineIndependent\preprocessor\PpContext.cpp">
+      <Filter>MachineIndependent\preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineIndependent\preprocessor\PpMemory.cpp">
+      <Filter>MachineIndependent\preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineIndependent\preprocessor\PpScanner.cpp">
+      <Filter>MachineIndependent\preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineIndependent\preprocessor\PpSymbols.cpp">
+      <Filter>MachineIndependent\preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineIndependent\preprocessor\PpTokens.cpp">
+      <Filter>MachineIndependent\preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="OSDependent\Windows\main.cpp">
+      <Filter>OSDependent\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="OSDependent\Windows\ossource.cpp">
+      <Filter>OSDependent\Windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Include\revision.template">
+      <Filter>Include</Filter>
+    </None>
+    <None Include="MachineIndependent\glslang.y">
+      <Filter>MachineIndependent</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -5,6 +5,7 @@
 *.suo
 *.vcxproj.user
 *.VC.db
+*.VC.opendb
 
 # Compilation results
 /Bin
