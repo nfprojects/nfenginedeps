@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="disassemble.cpp" />
+    <ClCompile Include="doc.cpp" />
+    <ClCompile Include="GlslangToSpv.cpp" />
+    <ClCompile Include="InReadableOrder.cpp" />
+    <ClCompile Include="Logger.cpp" />
+    <ClCompile Include="SpvBuilder.cpp" />
+    <ClCompile Include="SPVRemapper.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="disassemble.h" />
+    <ClInclude Include="doc.h" />
+    <ClInclude Include="GLSL.ext.AMD.h" />
+    <ClInclude Include="GLSL.std.450.h" />
+    <ClInclude Include="GlslangToSpv.h" />
+    <ClInclude Include="Logger.h" />
+    <ClInclude Include="spirv.hpp" />
+    <ClInclude Include="SpvBuilder.h" />
+    <ClInclude Include="spvIR.h" />
+    <ClInclude Include="SPVRemapper.h" />
+  </ItemGroup>
+</Project>

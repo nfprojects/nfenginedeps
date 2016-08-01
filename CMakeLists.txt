@@ -40,6 +40,7 @@ MESSAGE("Platform is ${BUILD_PLATFORM}")
 # Add all projects
 ADD_SUBDIRECTORY("bullet")
 #ADD_SUBDIRECTORY("FreeType") # TODO FINISH
+ADD_SUBDIRECTORY("glslang")
 ADD_SUBDIRECTORY("gtest")
 ADD_SUBDIRECTORY("jpeg")
 ADD_SUBDIRECTORY("libpng")
