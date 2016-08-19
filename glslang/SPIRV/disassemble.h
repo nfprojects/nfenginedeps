@@ -47,6 +47,6 @@ namespace spv {
 
     void Disassemble(std::ostream& out, const std::vector<unsigned int>&);
 
-};  // end namespace spv
+}  // end namespace spv
 
 #endif // disassembler_H
