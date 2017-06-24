@@ -42,6 +42,7 @@ void	btAlignedFreeInternal	(void* ptr,int line,char* filename);
 	#define btAlignedFree(ptr) btAlignedFreeInternal(ptr)
 
 #endif
+typedef int	size_type;
 
 typedef void *(btAlignedAllocFunc)(size_t size, int alignment);
 typedef void (btAlignedFreeFunc)(void *memblock);
@@ -80,7 +81,7 @@ public:
 
 	pointer       address   ( reference        ref ) const                           { return &ref; }
 	const_pointer address   ( const_reference  ref ) const                           { return &ref; }
-	pointer       allocate  ( int              n   , const_pointer *      hint = 0 ) {
+	pointer       allocate  ( size_type        n   , const_pointer *      hint = 0 ) {
 		(void)hint;
 		return reinterpret_cast< pointer >(btAlignedAlloc( sizeof(value_type) * n , Alignment ));
 	}
