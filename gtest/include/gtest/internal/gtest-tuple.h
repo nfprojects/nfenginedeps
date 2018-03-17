@@ -53,7 +53,10 @@
    private:
 #endif
 
-#if defined(_MSC_VER) && _MSC_VER >= 1600 /* 1600 is Visual Studio 2010 */
+// Visual Studio 2010, 2012, and 2013 define symbols in std::tr1 that conflict
+// with our own definitions. Therefore using our own tuple does not work on
+// those compilers.
+#if defined(_MSC_VER) && _MSC_VER >= 1600  /* 1600 is Visual Studio 2010 */
 # error "gtest's tuple doesn't compile on Visual Studio 2010 or later. \
 GTEST_USE_OWN_TR1_TUPLE must be set to 0 on those compilers."
 #endif
