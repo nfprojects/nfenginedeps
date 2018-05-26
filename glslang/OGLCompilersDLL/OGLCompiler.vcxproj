@@ -28,7 +28,7 @@
     <ProjectGuid>{87346846-B883-48EC-BD07-4A7E6C696953}</ProjectGuid>
     <RootNamespace>gtest</RootNamespace>
     <ProjectName>OGLCompiler</ProjectName>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
