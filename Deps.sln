@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "freetype", "FreeType\freetype.vcxproj", "{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}"
 EndProject
@@ -39,8 +39,6 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LinearMath", "bullet\build3\vs2010\LinearMath.vcxproj", "{87C66833-ED38-C54A-BE3C-CBFB253F11EA}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "squish", "squish\squish.vcxproj", "{6A8518C3-D81A-4428-BD7F-C37933088AC1}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "imgui", "imgui\imgui.vcxproj", "{1544B92E-5855-45F7-AC38-341405217A26}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "glslang", "glslang", "{D9B5CFEE-E5AB-4D3C-AA1C-108E0C4DBECC}"
 EndProject
@@ -254,18 +252,6 @@ Global
 		{6A8518C3-D81A-4428-BD7F-C37933088AC1}.Release|Win32.Build.0 = Release|Win32
 		{6A8518C3-D81A-4428-BD7F-C37933088AC1}.Release|x64.ActiveCfg = Release|x64
 		{6A8518C3-D81A-4428-BD7F-C37933088AC1}.Release|x64.Build.0 = Release|x64
-		{1544B92E-5855-45F7-AC38-341405217A26}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
-		{1544B92E-5855-45F7-AC38-341405217A26}.Debug|Mixed Platforms.Build.0 = Debug|Win32
-		{1544B92E-5855-45F7-AC38-341405217A26}.Debug|Win32.ActiveCfg = Debug|Win32
-		{1544B92E-5855-45F7-AC38-341405217A26}.Debug|Win32.Build.0 = Debug|Win32
-		{1544B92E-5855-45F7-AC38-341405217A26}.Debug|x64.ActiveCfg = Debug|x64
-		{1544B92E-5855-45F7-AC38-341405217A26}.Debug|x64.Build.0 = Debug|x64
-		{1544B92E-5855-45F7-AC38-341405217A26}.Release|Mixed Platforms.ActiveCfg = Release|Win32
-		{1544B92E-5855-45F7-AC38-341405217A26}.Release|Mixed Platforms.Build.0 = Release|Win32
-		{1544B92E-5855-45F7-AC38-341405217A26}.Release|Win32.ActiveCfg = Release|Win32
-		{1544B92E-5855-45F7-AC38-341405217A26}.Release|Win32.Build.0 = Release|Win32
-		{1544B92E-5855-45F7-AC38-341405217A26}.Release|x64.ActiveCfg = Release|x64
-		{1544B92E-5855-45F7-AC38-341405217A26}.Release|x64.Build.0 = Release|x64
 		{E769A9EF-8368-4459-89B5-8CC258BF8C44}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
 		{E769A9EF-8368-4459-89B5-8CC258BF8C44}.Debug|Mixed Platforms.Build.0 = Debug|Win32
 		{E769A9EF-8368-4459-89B5-8CC258BF8C44}.Debug|Win32.ActiveCfg = Debug|Win32
@@ -332,5 +318,8 @@ Global
 		{DE303DE6-043B-437E-90F2-30E1126342B0} = {D9B5CFEE-E5AB-4D3C-AA1C-108E0C4DBECC}
 		{9A6D97BF-0C5B-4DF1-88D8-C6F9453049AF} = {D9B5CFEE-E5AB-4D3C-AA1C-108E0C4DBECC}
 		{87346846-B883-48EC-BD07-4A7E6C696953} = {D9B5CFEE-E5AB-4D3C-AA1C-108E0C4DBECC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38800B8D-7653-42C2-9298-B1BA034A48BF}
 	EndGlobalSection
 EndGlobal
