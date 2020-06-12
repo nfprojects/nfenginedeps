@@ -1,10 +1,10 @@
 # @file   CMakeLists.txt
 # @author LKostyra (costyrra.xl@gmail.com)
-# @brief  Main CMake file for nfEngine Deps
+# @brief  Main CMake file for nfEngine extra deps
 
 CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
 
-PROJECT(nfEngineDeps)
+PROJECT(nfEngineExtraDeps)
 
 # Pre-define Release build
 IF(NOT DEFINED CMAKE_BUILD_TYPE)
@@ -38,14 +38,6 @@ MESSAGE("Build type is ${CMAKE_BUILD_TYPE}")
 MESSAGE("Platform is ${BUILD_PLATFORM}")
 
 # Add all projects
-ADD_SUBDIRECTORY("bullet")
-#ADD_SUBDIRECTORY("FreeType") # TODO FINISH
-ADD_SUBDIRECTORY("glslang")
-ADD_SUBDIRECTORY("gtest")
 ADD_SUBDIRECTORY("jpeg")
-ADD_SUBDIRECTORY("libpng")
-ADD_SUBDIRECTORY("model_obj")
-ADD_SUBDIRECTORY("squish")
-ADD_SUBDIRECTORY("zlib")
 
 FILE(MAKE_DIRECTORY ${NFEDEPS_OUTPUT_DIRECTORY})
