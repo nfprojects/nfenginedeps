@@ -11,14 +11,6 @@
 # Compilation results
 /Bin
 /Obj
-*.dll
-*.lib
-*.pdb
-*.exp
-*.ilk
-*.a
-*.so
-*.o
 
 # CMake files
 CMakeCache.txt
